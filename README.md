@@ -5,6 +5,9 @@
 1) Zeynep Danış – Scrum Master  
 [LinkedIn](https://linkedin.com/in/zeynepdanis)
 
+2)Fatmanur Kaya - Developer
+[LinkedIn]()
+
 
 ---
 
