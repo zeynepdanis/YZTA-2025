@@ -8,6 +8,9 @@
 2) Fatmanur Kaya - Developer
 [LinkedIn]()
 
+3) Emre Pamukcu - Developer
+[LinkedIn]()
+
 
 ---
 
