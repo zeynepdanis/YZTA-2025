@@ -52,6 +52,16 @@
 
 ---
 
+## İletişim ve Koordinasyon
+Bu proje kapsamında takım içi iletişim, günlük paylaşımlar ve toplantı duyuruları için WhatsApp Community kullanılması kararlaştırılmıştır.
+
+Toplantılar (Daily, Sprint Planning, Review, Retrospective) ve genel koordinasyon bu kanal üzerinden yürütülmektedir.
+
+👉 Katılım için topluluk linki: [WhatsApp Topluluğuna Katıl](https://chat.whatsapp.com/GxAE2ytOSIvENwuigH49zg?mode=r_c)
+
+
+
+---
 ## 🗓️ Sprint 1 – Başlangıç ve Hazırlık
 
 **Sprint Süresi:** 2 hafta  
