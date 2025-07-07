@@ -148,7 +148,7 @@ Toplantılar (Daily, Sprint Planning, Review, Retrospective) ve genel koordinasy
 ## 🌐 Community Images
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/014d38b1-36ac-422b-a366-d45d4d974b24" width="400"/>
+  <img src="https://github.com/user-attachments/assets/014d38b1-36ac-422b-a366-d45d4d974b24" width="200"/>
 </p>
 
 
