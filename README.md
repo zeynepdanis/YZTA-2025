@@ -139,6 +139,15 @@ Toplantılar (Daily, Sprint Planning, Review, Retrospective) ve genel koordinasy
 
 👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
 
+##### Sprint Board
+   ![image](https://github.com/user-attachments/assets/1cfe8fbf-694b-46ba-bfe1-d1248590fcf0)
+##### Community Images
+![image](https://github.com/user-attachments/assets/184d444a-451e-4a8d-bb84-c65399c8d71d)
+![image](https://github.com/user-attachments/assets/014d38b1-36ac-422b-a366-d45d4d974b24)
+
+
+
+
 
 ---
 
@@ -179,8 +188,9 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 | Scrum uygulama biçiminin netleştirilmesi | Süreç | ✅  
 
 ---
-
-### ⚠️ Sprint Efor Durumu:
+### Tamamalanan Puan ve Puan Tamamlama
+---
+#### ⚠️ Sprint Efor Durumu:
 - Toplam proje puanı belirlendi: **43 Story Point**
 - Sprint 1’de doğrudan teknik geliştirme yapılmadığı için puan tamamlanmamıştır
 - Teknik görevler Sprint 2’ye taşınmıştır
@@ -194,7 +204,11 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 - Logo ve temel UI tasarımının belirlenmesi
 
 ---
-### 🔍 Gözden Geçirilen Öğeler:
+
+### Sprint Review :
+---
+
+#### 🔍 Gözden Geçirilen Öğeler:
 - Proje fikri netleştirildi
 - Kullanılacak teknoloji ve araçlar belirlendi
 - Görev dağılımı yapıldı, backlog oluşturuldu
@@ -202,9 +216,11 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 - GitHub ve Notion ortamları kuruldu
 - Daily Scrum yöntemi tanımlandı (WhatsApp Community üzerinden)
 
+
+
 ---
 
-### 📊 Tamamlananlar:
+#### 📊 Tamamlananlar:
 - Projenin teknik ve organizasyonel temeli başarıyla atıldı.
 - Geliştirme yapılmadı ancak geliştirmeye hazır ortamlar ve süreçler oluşturuldu.
 - Tüm görevler sprint planında yer aldığı şekilde tamamlandı.
