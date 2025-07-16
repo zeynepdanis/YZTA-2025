@@ -1,8 +1,8 @@
 import pandas as pd
 import re
 
-# CSV dosyasını yükle
-df = pd.read_csv("backend/dataset/drugs_side_effects_drugs_com.csv")
+# CSV dosyasını yükle (Yolu backend klasörüne göre ayarlandı)
+df = pd.read_csv("dataset/drugs_side_effects_drugs_com.csv")
 
 # Gerekli sütunları seç
 columns_to_keep = ['drug_name', 'medical_condition', 'side_effects', 'rating']
@@ -29,5 +29,5 @@ df_grouped = df_clean.groupby('drug_name').agg({
 # Temizlenmiş veriyi incele
 print(df_grouped.head())
 
-# (İsteğe bağlı) Temiz veriyi kaydet
-df_grouped.to_csv("backend/dataset/cleaned_drug_data.csv", index=False)
+# (İsteğe bağlı) Temiz veriyi kaydet (Yolu backend klasörüne göre ayarlandı)
+df_grouped.to_csv("dataset/cleaned_drug_data.csv", index=False)
