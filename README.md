@@ -285,10 +285,13 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
 ---
 ### 🌐 Sprint Board
-<p align="center"> <img src="https://github.com/zeynepdanis/YZTA-2025/blob/main/image-4.png?raw=true" width="700"/> </p>
+<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/ac0d65b3-7f3c-4252-a2de-e67b847fe8b1" />
 
 ---
 ### 🌐 Community Images
+<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/e1e4c437-d472-4cf2-9b38-e802cba74c50" />
+<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/712963fc-ee3c-4204-952d-4fe33357f96f" />
+<img width="574" height="1058" alt="image" src="https://github.com/user-attachments/assets/0fa77615-1fcb-4eb0-a6db-e2b826bd96c8" />
 
 ---
 ## 🌟 Sprint Hedefi:
@@ -369,9 +372,13 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 | Benzer ilaç öneri mantığının eklenmesi | Backend  | ✅     |
 
 #### Images :
-### ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.](image.png). // API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
-### ![alt text](image-1.png) // reactta oluşturulan form tasarım üzerine çalışılıyor. 
-### ![alt text](image-2.png) ![alt text](image-3.png) // Üzerinde çalışılan tasarımlar  
+### ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.]<img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
+. // API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
+### ![alt text]<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
+ // reactta oluşturulan form tasarım üzerine çalışılıyor. 
+### ![alt text]<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
+ // Üzerinde çalışılan tasarımlar  
 
 
 ## ⚠️ Tamamlanamayanlar:
