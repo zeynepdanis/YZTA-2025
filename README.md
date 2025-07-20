@@ -289,8 +289,10 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 
 ---
 ### 🌐 Community Images
-<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/e1e4c437-d472-4cf2-9b38-e802cba74c50" />
-<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/712963fc-ee3c-4204-952d-4fe33357f96f" />
+<img width="1170" height="1929" alt="image" src="https://github.com/user-attachments/assets/5a4c84a4-f690-4bf8-970f-0ad0c3e41aff" />
+
+<img width="1170" height="1915" alt="image" src="https://github.com/user-attachments/assets/942d1bca-746f-4ea2-91ea-70bd6a197354" />
+
 <img width="574" height="1058" alt="image" src="https://github.com/user-attachments/assets/0fa77615-1fcb-4eb0-a6db-e2b826bd96c8" />
 
 ---
@@ -372,13 +374,14 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 | Benzer ilaç öneri mantığının eklenmesi | Backend  | ✅     |
 
 #### Images :
-### ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.]<img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
-. // API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
-### ![alt text]<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
- // reactta oluşturulan form tasarım üzerine çalışılıyor. 
-### ![alt text]<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
+####  API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
+ ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.]<img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
+#### React üzerinde oluşturulan form , tasarım üzerine çalışılıyor. 
+ ![alt text]<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
+#### Üzerinde çalışılan tasarımlar 
+ ![alt text]<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
- // Üzerinde çalışılan tasarımlar  
+ 
 
 
 ## ⚠️ Tamamlanamayanlar:
