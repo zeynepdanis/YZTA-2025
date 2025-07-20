@@ -281,7 +281,6 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 
 ## 📂 Backlog & Sprint Board
 ---
-## 👉 Notion Board (Backlog & Sprint Takibi)
 👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
 ---
 ### 🌐 Sprint Board
