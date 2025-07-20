@@ -1,72 +1,79 @@
 import pandas as pd
-import joblib  # Modeli yüklemek için kullanılacak
+import joblib
 import re
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
+# 🔧 Flask kurulumu
 app = Flask(__name__)
-CORS(app)  # Tüm kökenlerden gelen isteklere izin ver (geliştirme aşaması için)
+CORS(app)
 
-# Veri setini yükle
+# ✅ Yaş aralığını belirle
+def get_age_group(age):
+    try:
+        age = int(age)
+        if age <= 17:
+            return "0-17"
+        elif age <= 25:
+            return "18-25"
+        elif age <= 35:
+            return "26-35"
+        elif age <= 50:
+            return "36-50"
+        elif age <= 65:
+            return "51-65"
+        else:
+            return "65+"
+    except:
+        return "unknown"
+
+# ✅ Veri dosyasını yükle (tüm yan etkileri göstermek için)
 try:
-    df_drugs = pd.read_csv("backend/dataset/cleaned_drug_data.csv")
-
-    def clean_text(text):
-        if not isinstance(text, str):
-            return ""
-        text = text.lower()
-        text = re.sub(r'[^\\w\\s,]', '', text)
-        return text
-
-    print("Veri 'cleaned_drug_data.csv' dosyasından başarıyla yüklendi.")
-    print(df_drugs.head())
-except FileNotFoundError:
-    print("Hata: 'cleaned_drug_data.csv' dosyası bulunamadı.")
-    df_drugs = pd.DataFrame(columns=['drug_name', 'medical_condition', 'side_effects', 'rating'])
+    df_drugs = pd.read_csv("backend/dataset/final_expanded_drug_dataset.csv")
 except Exception as e:
-    print(f"Veri yüklenirken bir hata oluştu: {e}")
-    df_drugs = pd.DataFrame(columns=['drug_name', 'medical_condition', 'side_effects', 'rating'])
+    print(f"CSV yükleme hatası: {e}")
+    df_drugs = pd.DataFrame(columns=['drug_name', 'specific_side_effects', 'all_side_effects'])
 
-# ✅ MODEL ve VECTORIZER YÜKLENİYOR
+# ✅ Model bileşenlerini yükle
 try:
-    model = joblib.load("model/side_effect_prediction_model.pkl")
-    vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
-    print("Model ve TF-IDF vectorizer başarıyla yüklendi.")
+    model = joblib.load("backend/model/specific_side_effect_predictor.pkl")
+    vectorizer = joblib.load("backend/model/tfidf_vectorizer_side_effect.pkl")
+    label_encoder = joblib.load("backend/model/specific_side_effect_label_encoder.pkl")
+    print("✅ Model bileşenleri yüklendi.")
 except Exception as e:
-    print(f"Model veya vectorizer yüklenemedi: {e}")
-    model = None
-    vectorizer = None
+    print("❌ Model bileşenleri yüklenemedi:", e)
+    model, vectorizer, label_encoder = None, None, None
 
-# ✅ Gerçek tahmin fonksiyonu
+# ✅ Ana tahmin fonksiyonu
 def predict_side_effect_real(drug_name, age, gender):
-    if model is None or vectorizer is None:
+    if None in (model, vectorizer, label_encoder):
         return "Model yüklenemedi."
 
+    age_group = get_age_group(age)
+    input_text = f"{drug_name} {age_group} {gender}"
     try:
-        # Basit metin oluşturma – model eğitimine göre güncellenebilir
-        input_text = f"{drug_name} yaş:{age} cinsiyet:{gender}"
-        vectorized_input = vectorizer.transform([input_text])
-        prediction = model.predict(vectorized_input)
-        return prediction[0]
+        input_vector = vectorizer.transform([input_text])
+        prediction = model.predict(input_vector)
+        return label_encoder.inverse_transform(prediction)[0]
     except Exception as e:
         return f"Tahmin hatası: {str(e)}"
 
-# Diğer örnek fonksiyonlar (dokunulmadı)
-def get_all_side_effects_for_drug_mock(drug_name):
-    drug_info = df_drugs[df_drugs['drug_name'].str.lower() == drug_name.lower()]
-    if not drug_info.empty:
-        side_effects_str = drug_info['side_effects'].iloc[0]
-        return [effect.strip().capitalize() for effect in side_effects_str.split(',')] if side_effects_str else []
+# ✅ İlgili ilacın tüm yan etkilerini veriden getir
+def get_all_side_effects_for_drug(drug_name):
+    match = df_drugs[df_drugs['drug_name'].str.lower() == drug_name.lower()]
+    if not match.empty:
+        raw = match['all_side_effects'].iloc[0]
+        return [x.strip().capitalize() for x in raw.split(',')] if pd.notna(raw) else []
     return []
 
-def get_similar_drugs_mock(predicted_side_effect_profile):
-    if 'uyuşukluk' in predicted_side_effect_profile.lower():
-        return df_drugs[df_drugs['side_effects'].str.contains('uyuşukluk', case=False, na=False)]['drug_name'].drop_duplicates().tolist()
-    elif 'mide' in predicted_side_effect_profile.lower():
-        return df_drugs[df_drugs['side_effects'].str.contains('mide', case=False, na=False)]['drug_name'].drop_duplicates().tolist()
-    return ['Alternatif ilaç bulunamadı']
+# ✅ Basit benzer ilaç önerisi (aynı yan etkiye sahip olanlardan)
+def get_similar_drugs(predicted_effect):
+    if not isinstance(predicted_effect, str):
+        return []
+    result = df_drugs[df_drugs['specific_side_effects'].str.contains(predicted_effect, case=False, na=False)]
+    return result['drug_name'].drop_duplicates().tolist()
 
-# Tahmin API endpoint’i
+# ✅ API endpoint
 @app.route('/predict_side_effect', methods=['POST'])
 def predict_side_effect():
     data = request.get_json()
@@ -74,20 +81,17 @@ def predict_side_effect():
     age = data.get('age')
     gender = data.get('gender')
 
-    if not drug_name or not age or not gender:
-        return jsonify({'error': 'İlaç adı, yaş ve cinsiyet alanları zorunludur.'}), 400
+    if not all([drug_name, age, gender]):
+        return jsonify({'error': 'İlaç adı, yaş ve cinsiyet zorunludur.'}), 400
 
-    # ✅ ARTIK GERÇEK MODEL KULLANILIYOR
-    predicted_side_effect_result = predict_side_effect_real(drug_name, age, gender)
-
-    # Diğer mock fonksiyonlar aynı şekilde çalışıyor
-    all_side_effects_result = get_all_side_effects_for_drug_mock(drug_name)
-    similar_drugs_result = get_similar_drugs_mock(predicted_side_effect_result)
+    predicted = predict_side_effect_real(drug_name, age, gender)
+    all_effects = get_all_side_effects_for_drug(drug_name)
+    similar_drugs = get_similar_drugs(predicted)
 
     return jsonify({
-        'predicted_side_effect': predicted_side_effect_result,
-        'all_side_effects': all_side_effects_result,
-        'similar_drugs': similar_drugs_result
+        'predicted_side_effect': predicted,
+        'all_side_effects': all_effects,
+        'similar_drugs': similar_drugs
     })
 
 if __name__ == '__main__':
