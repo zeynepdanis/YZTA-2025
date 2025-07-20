@@ -295,15 +295,15 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 <img width="574" height="1058" alt="image" src="https://github.com/user-attachments/assets/0fa77615-1fcb-4eb0-a6db-e2b826bd96c8" />
 
 ---
-## 🌟 Sprint Hedefi:
+## Sprint Hedefi:
 
 Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve temel API'nin yayına alınması.
 
 ---
 
-## ✅ Tamamlanan İşler:
+##  Tamamlanan İşler:
 ---
-#### 🔧 Veri Temizleme & Zenginleştirme
+#### Veri Temizleme & Zenginleştirme
 
 - Veri seti düzenlendi: drug_name, age_group, gender, specific_side_effects alanları sadeleştirildi
 
@@ -311,7 +311,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - Yaş numeric değerden age_group etiketi olarak eğitim setine uyarlandı
 ---
-#### 🧐 Model Geliştirme
+####  Model Geliştirme
 
 - TF-IDF + Logistic Regression modeli ile yan etki tahmini modeli eğitildi
 
@@ -319,7 +319,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - Model dosyaları (.pkl) kaydedildi ve servis edilecek hale getirildi
 ---
-#### 🚀 Backend API (Flask)
+#### Backend API (Flask)
 
 - /predict_side_effect endpoint'i gerçek modelle entegre edildi
 
@@ -327,7 +327,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - Model, TF-IDF ve encoder dosyaları API tarafında dinamik şekilde yüklenebilir hale getirildi
 ---
-#### 💻 Frontend (React)
+#### Frontend (React)
 
 - React projesi başlatıldı
 
@@ -337,12 +337,12 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 ---
 ## Tamamalanan Puan ve Puan Tamamlama
 ---
-#### ⚠️ Sprint Efor Durumu:
+####  Sprint Efor Durumu:
 - Toplam proje puanı belirlendi: **43 Story Point**
 - Sprint 2 de 26 efor puanı tammalandı.
 📋 Sprint Review
 ---
-## 🔍 Gözden Geçirilenler:
+## Gözden Geçirilenler:
 
 - Model çıktıları test edildi ve hedef doğruluk seviyelerine ulaşıldı
 
@@ -353,7 +353,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 - Tüm ekip üretken çalıştı, her rolde katkı sağlandı.
 ---
 
-## 📊 Tamamlananlar:
+## Tamamlananlar:
 
 - Model doğruluk hedefleri sağlandı
 
@@ -383,33 +383,33 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
  
 
 
-## ⚠️ Tamamlanamayanlar:
+##  Tamamlanamayanlar:
 
 - Frontend tasarımının güncel halinin uygulanması Sprint 3'e kaldı
 ---
 
-## 🔄 Sprint 2 Retrospektif
+## Sprint 2 Retrospektif
 
-### 💬 Ne İyi Gitti?
+### Ne İyi Gitti?
 
 - Tüm teknik bileşenler paralel geliştirildi
 
 - API testleri doğru kurgulandı, model eşleşmesi sorunsuz
 
-### 🚧 Ne Geliştirilebilir?
+### Ne Geliştirilebilir?
 
 - Frontend gelişimi backend kadar hızlı ilerlemedi, bu dengenin kurulması gerekiyor
 
 - Tasarım geliştirme birlikte ilerlemeli
 
-### ✅ Neleri Koruyacağız?
+### Neleri Koruyacağız?
 
 - Görev dağılımı ve story point sistematiği
 
 - Doğrudan model + API + test yapısının birlikte geliştirilmesi
 
 
-### 🌟 Sprint 3 Çıktılarına Hazırlık
+### Sprint 3 Çıktılarına Hazırlık
 
 - UI/UX tasarımının tamamlanması
 
