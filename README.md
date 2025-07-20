@@ -270,5 +270,143 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 
 
 ---
+## 🗓️  Sprint 2 – Veri & Model Geliştirme
+
+### 📅 Sprint Süre:
+
+2 hafta
+
+
+## 📂 Backlog & Sprint Board
+---
+## 👉 Notion Board (Backlog & Sprint Takibi)
+👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
+---
+### 🌐 Sprint Board
+![alt text](image-4.png)
+
+---
+### 🌐 Community Images
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+---
+## 🌟 Sprint Hedefi:
+
+Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve temel API'nin yayına alınması.
+
+---
+
+## ✅ Tamamlanan İşler:
+---
+#### 🔧 Veri Temizleme & Zenginleştirme
+
+- Veri seti düzenlendi: drug_name, age_group, gender, specific_side_effects alanları sadeleştirildi
+
+- Tekrarlı girdiler temizlendi, grup bazlı yan etkiler birleştirildi
+
+- Yaş numeric değerden age_group etiketi olarak eğitim setine uyarlandı
+---
+#### 🧐 Model Geliştirme
+
+- TF-IDF + Logistic Regression modeli ile yan etki tahmini modeli eğitildi
+
+- Model için %70+ başarı oranına ulaşıldı
+
+- Model dosyaları (.pkl) kaydedildi ve servis edilecek hale getirildi
+---
+#### 🚀 Backend API (Flask)
+
+- /predict_side_effect endpoint'i gerçek modelle entegre edildi
+
+- Girdilere göre tahmin + benzer ilaç + yan etki listesini döndürecek şekilde servis yayına alındı
+
+- Model, TF-IDF ve encoder dosyaları API tarafında dinamik şekilde yüklenebilir hale getirildi
+---
+#### 💻 Frontend (React)
+
+- React projesi başlatıldı
+
+- Geçici bir form sayfası geliştirildi (input alanları: ilaç adı, yaş, cinsiyet)
+
+- Tasarım üzerine çalışılmaya devam ediliyor, güncellenmiş tasarıma göre yeniden yazılacak
+---
+## Tamamalanan Puan ve Puan Tamamlama
+---
+#### ⚠️ Sprint Efor Durumu:
+- Toplam proje puanı belirlendi: **43 Story Point**
+- Sprint 2 de 26 efor puanı tammalandı.
+📋 Sprint Review
+---
+## 🔍 Gözden Geçirilenler:
+
+- Model çıktıları test edildi ve hedef doğruluk seviyelerine ulaşıldı
+
+- API uçtan uca test edildi (tahmin + veri getirme + benzer öneri)
+
+- Frontend tarafından form yapısı çalışıyor hale getirildi
+
+- Tüm ekip üretken çalıştı, her rolde katkı sağlandı.
+---
+
+## 📊 Tamamlananlar:
+
+- Model doğruluk hedefleri sağlandı
+
+- Flask backend eksiksiz geliştirildi
+
+- React frontend başlatıldı ve entegrasyona hazır hale getirildi.
+---
+## Sprint 2 de Tamamlanan Görevler
+| Görev                                  | Tip      | Durum |
+| -------------------------------------- | -------- | ----- |
+| Veri setinin temizlenmesi              | Veri     | ✅     |
+| Yan etki modelinin eğitilmesi          | ML       | ✅     |
+| Flask API entegrasyonu                 | Backend  | ✅     |
+| Model dosyalarının kaydedilmesi        | ML       | ✅     |
+| React projesinin başlatılması          | Frontend | ✅     |
+| Test sayfasının hazırlanması           | Frontend | ✅     |
+| Benzer ilaç öneri mantığının eklenmesi | Backend  | ✅     |
+
+#### Images :
+### ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.](image.png). // API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
+### ![alt text](image-1.png) // reactta oluşturulan form tasarım üzerine çalışılıyor. 
+### ![alt text](image-2.png) ![alt text](image-3.png) // Üzerinde çalışılan tasarımlar  
+
+
+## ⚠️ Tamamlanamayanlar:
+
+- Frontend tasarımının güncel halinin uygulanması Sprint 3'e kaldı
+---
+
+## 🔄 Sprint 2 Retrospektif
+
+### 💬 Ne İyi Gitti?
+
+- Tüm teknik bileşenler paralel geliştirildi
+
+- API testleri doğru kurgulandı, model eşleşmesi sorunsuz
+
+### 🚧 Ne Geliştirilebilir?
+
+- Frontend gelişimi backend kadar hızlı ilerlemedi, bu dengenin kurulması gerekiyor
+
+- Tasarım geliştirme birlikte ilerlemeli
+
+### ✅ Neleri Koruyacağız?
+
+- Görev dağılımı ve story point sistematiği
+
+- Doğrudan model + API + test yapısının birlikte geliştirilmesi
+
+
+### 🌟 Sprint 3 Çıktılarına Hazırlık
+
+- UI/UX tasarımının tamamlanması
+
+- Test ve demo sunumu için arayüz düzenlemeleri
+
+
+
 
 > ✨ Bu proje bir eğitim bootcamp’i kapsamında geliştirilmiştir.
