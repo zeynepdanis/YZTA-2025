@@ -339,9 +339,10 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 ---
 ####  Sprint Efor Durumu:
 - Toplam proje puanı belirlendi: **43 Story Point**
-- Sprint 2 de 26 efor puanı tammalandı.
-📋 Sprint Review
+- Sprint 2 de toplama tamamlanması planlanan efor 34 iken sprint sonunda 26 efor puanı tamamlandı.
 ---
+## Sprint Review
+
 ## Gözden Geçirilenler:
 
 - Model çıktıları test edildi ve hedef doğruluk seviyelerine ulaşıldı
