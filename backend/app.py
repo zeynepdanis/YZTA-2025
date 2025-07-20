@@ -29,8 +29,8 @@ except Exception as e:
 
 # ✅ MODEL ve VECTORIZER YÜKLENİYOR
 try:
-    model = joblib.load("side_effect_prediction_model.pkl")
-    vectorizer = joblib.load("tfidf_vectorizer.pkl")
+    model = joblib.load("model/side_effect_prediction_model.pkl")
+    vectorizer = joblib.load("model/tfidf_vectorizer.pkl")
     print("Model ve TF-IDF vectorizer başarıyla yüklendi.")
 except Exception as e:
     print(f"Model veya vectorizer yüklenemedi: {e}")
