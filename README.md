@@ -195,6 +195,8 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 | GitHub ve Notion ortamlarının hazırlanması | Teknik | ✅  
 | Scrum uygulama biçiminin netleştirilmesi | Süreç | ✅  
 
+
+
 ---
 ### Tamamalanan Puan ve Puan Tamamlama
 ---
@@ -283,13 +285,11 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
 ---
 ### 🌐 Sprint Board
-![alt text](image-4.png)
+<p align="center"> <img src="https://github.com/zeynepdanis/YZTA-2025/blob/main/image-4.png?raw=true" width="700"/> </p>
 
 ---
 ### 🌐 Community Images
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
+
 ---
 ## 🌟 Sprint Hedefi:
 
