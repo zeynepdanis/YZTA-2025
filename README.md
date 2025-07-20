@@ -375,11 +375,11 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 #### Images :
 ####  API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
- ![API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.]<img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
+ <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
 #### React üzerinde oluşturulan form , tasarım üzerine çalışılıyor. 
- ![alt text]<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
+<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
 #### Üzerinde çalışılan tasarımlar 
- ![alt text]<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
  
 
