@@ -287,7 +287,7 @@ Veri seti bulundu ancak proje ile tam uyumlu olmadığı için farklı veri setl
 
 ---
 ### 🌐 Community Images
-<img width="1170" height="1929" alt="image" src="https://github.com/user-attachments/assets/5a4c84a4-f690-4bf8-970f-0ad0c3e41aff" />
+<img width="436" height="718" alt="Screenshot 2025-07-21 at 18 49 55" src="https://github.com/user-attachments/assets/4559e0f4-d2f8-42e2-b57e-608ae4c86017" />
 
 <img width="1170" height="1915" alt="image" src="https://github.com/user-attachments/assets/942d1bca-746f-4ea2-91ea-70bd6a197354" />
 
@@ -348,18 +348,20 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 ####  API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
  <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
 #### React üzerinde oluşturulan form , tasarım üzerine çalışılıyor. 
-<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
+<img width="414" height="266" alt="image" src="https://github.com/user-attachments/assets/510363c2-47b0-4f13-8aa7-c3c5727ff5f3" />
 #### Üzerinde çalışılan tasarımlar 
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
 <img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
  
 ---
 ## Scrum Board Updates
-### sprint 2 board
+### Sprint 2 board
 <img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/ac0d65b3-7f3c-4252-a2de-e67b847fe8b1" />
-### backlog
+
+### Backlog
 <img width="2304" height="672" alt="image" src="https://github.com/user-attachments/assets/1392ef56-67da-4690-8ba3-b3b4054353eb" />
-### sprint 2 tasks 
+
+### Sprint 2 tasks and points
 <img width="1600" height="1082" alt="image" src="https://github.com/user-attachments/assets/1022a9da-4994-465a-83d7-9941df3eb68e" />
 
 ---
