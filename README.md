@@ -153,10 +153,6 @@ Toplantılar (Daily, Sprint Planning, Review, Retrospective) ve genel koordinasy
 
 
 
-
-
-
-
 ---
 
 ### 🎯 Sprint Hedefi:
@@ -278,6 +274,9 @@ Projenin temel yapısının kurulması, görevlerin netleştirilmesi, araç ve i
 
 2 hafta
 
+## Sprint Notları
+Veri seti bulundu ancak proje ile tam uyumlu olmadığı için farklı veri setleri incelendi; istenen özellikte veri seti bulunamayınca mevcut veri zenginleştirildi ve böylece ihtiyaç duyulan veri elde edildi. Birden fazla model denendi, en yüksek doğruluk veren modelle devam edildi. Tasarım kısmı ise beklenen hızda ilerlemediği için bir sonraki sprintte tamamlanmak üzere bırakıldı.
+
 
 ## 📂 Backlog & Sprint Board
 ---
@@ -335,15 +334,38 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - Tasarım üzerine çalışılmaya devam ediliyor, güncellenmiş tasarıma göre yeniden yazılacak
 ---
-## Tamamalanan Puan ve Puan Tamamlama
+## Tahmin Edilen ve Tamamlanacak Puan
 ---
 ####  Sprint Efor Durumu:
 - Toplam proje puanı belirlendi: **43 Story Point**
 - Sprint 2 de toplama tamamlanması planlanan efor 34 iken sprint sonunda 26 efor puanı tamamlandı.
 ---
+### Tahmin Mantığı
+- Sprintte efor hesabını story point bazında yaptık; her iş için puan verdik ve toplam puan üzerinden planlama yaptık.
+----
+## ScreenShots
+
+####  API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
+ <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
+#### React üzerinde oluşturulan form , tasarım üzerine çalışılıyor. 
+<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
+#### Üzerinde çalışılan tasarımlar 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
+ 
+---
+## Scrum Board Updates
+### sprint 2 board
+<img width="1006" height="1028" alt="image" src="https://github.com/user-attachments/assets/ac0d65b3-7f3c-4252-a2de-e67b847fe8b1" />
+### backlog
+<img width="2304" height="672" alt="image" src="https://github.com/user-attachments/assets/1392ef56-67da-4690-8ba3-b3b4054353eb" />
+### sprint 2 tasks 
+<img width="1600" height="1082" alt="image" src="https://github.com/user-attachments/assets/1022a9da-4994-465a-83d7-9941df3eb68e" />
+
+---
 ## Sprint Review
 
-## Gözden Geçirilenler:
+### Gözden Geçirilenler:
 
 - Model çıktıları test edildi ve hedef doğruluk seviyelerine ulaşıldı
 
@@ -354,7 +376,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 - Tüm ekip üretken çalıştı, her rolde katkı sağlandı.
 ---
 
-## Tamamlananlar:
+### Tamamlananlar:
 
 - Model doğruluk hedefleri sağlandı
 
@@ -362,7 +384,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - React frontend başlatıldı ve entegrasyona hazır hale getirildi.
 ---
-## Sprint 2 de Tamamlanan Görevler
+### Sprint 2 de Tamamlanan Görevler
 | Görev                                  | Tip      | Durum |
 | -------------------------------------- | -------- | ----- |
 | Veri setinin temizlenmesi              | Veri     | ✅     |
@@ -373,18 +395,7 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 | Test sayfasının hazırlanması           | Frontend | ✅     |
 | Benzer ilaç öneri mantığının eklenmesi | Backend  | ✅     |
 
-#### Images :
-####  API test edildi .Model girdilerie göre tahmin yürütüp sonuç çıkarıyor.
- <img width="1280" height="890" alt="image" src="https://github.com/user-attachments/assets/03d2dd78-98f8-47f7-b35c-6175cfb25f90" />
-#### React üzerinde oluşturulan form , tasarım üzerine çalışılıyor. 
-<img width="648" height="1054" alt="image" src="https://github.com/user-attachments/assets/45622957-490a-4914-8262-a7f525b2b396" />
-#### Üzerinde çalışılan tasarımlar 
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/e00dfc2a-1952-455b-a359-c8e57a0339dc" />
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/c5c3815a-ec97-4423-9077-f79de4718af6" />
- 
-
-
-##  Tamamlanamayanlar:
+### Tamamlanamayanlar:
 
 - Frontend tasarımının güncel halinin uygulanması Sprint 3'e kaldı
 ---
