@@ -429,7 +429,128 @@ Modelin geliştirilmesi, veri zenginleştirme çalışmasının tamamlanması ve
 
 - Test ve demo sunumu için arayüz düzenlemeleri
 
+---
+## 🗓️  Sprint 3 
+
+### 📅 Sprint Süre:
+
+2 hafta
+
+## Sprint Notları
+Üçüncü hafta boyunca uygulamanın frontend tasarımı ve logo çalışmaları tamamlandı. Arayüz, React ile kodlanarak API bağlantısı başarıyla gerçekleştirildi.
+Yapay zeka modülü için Gemini entegrasyonu planlanmıştı; ancak entegrasyon sürecinde teknik uyumsuzluklar ve bağlantı sorunları nedeniyle bu özellik çalışır şekilde projeye dahil edilemedi.
+
+## 📂 Backlog & Sprint Board
+---
+👉 [Notion Board (Backlog & Sprint Takibi)](https://www.notion.so/2255b5f5bd1a80caa55bf07e87c3e3ee?v=2255b5f5bd1a80c3908b000c16ec9b6d&source=copy_link)
 
 
+---
+### 🌐 Sprint Board
+<img width="1826" height="1268" alt="image" src="https://github.com/user-attachments/assets/c97cf175-22d8-4311-b2bb-7a21ccc316a9" />
+
+### 🌐 Community Images
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/863702b6-265b-44d5-9041-cc42c12716bb" />
+<img width="1170" height="2532" alt="image" src="https://github.com/user-attachments/assets/da8f02a4-9ffb-427c-ae6a-0a14bad8b651" />
+<img width="1170" height="882" alt="image" src="https://github.com/user-attachments/assets/5f8ac480-ef51-444b-aeae-7c045eff9f21" />
+
+---
+## Sprint Hedefi:
+
+Uygulamanın frontend tasarımını ve logo çalışmalarını tamamlamak, arayüzü React ile kodlamak, backend API bağlantısını sağlamak ve yapay zeka tabanlı modülün entegrasyonunu başlatmak.
+
+---
+
+##  Tamamlanan İşler:
+- Frontend geliştirildi ve React ile kodlandı.
+- Backend bağlantısı ve API entegrasyonu sağlandı.
+- Ana sayfa ve logo tasarımı tamamlandı.
+- Fonksiyonellik testleri gerçekleştirildi.
+- Proje dökümantasyonu tamamlandı.
+---
+## Tahmin Edilen ve Tamamlanacak Puan
+---
+####  Sprint Efor Durumu:
+- Toplamda bu sprintte 12 efor tammalandı toplam proje eforu 43 idi.Şu ana kadar toplamda 38 efor tamamlnamış oldu.
+---
+### Tahmin Mantığı
+- Sprintte efor hesabını story point bazında yaptık; her iş için puan verdik ve toplam puan üzerinden planlama yaptık.
+----
+## ScreenShots
+![ScreenRecording2025-08-01at23 34 58-ezgif com-video-to-gif-converter-2](https://github.com/user-attachments/assets/e924f353-afbf-47c6-8e28-68df154da4c8)
+
+
+---
+## Scrum Board Updates
+### Sprint 2 board
+<img width="1826" height="1268" alt="image" src="https://github.com/user-attachments/assets/c97cf175-22d8-4311-b2bb-7a21ccc316a9" />
+### Sprint 2 tasks and points
+<img width="1612" height="858" alt="image" src="https://github.com/user-attachments/assets/fff06789-d459-4235-ae6c-3adc9a344c71" />
+
+---
+## Sprint Review
+
+### Gözden Geçirilenler:
+
+- Frontend tasarımı ve logo çalışmaları tamamlandı, arayüz React ile kodlandı  
+- API uçtan uca test edilerek, tahmin ve benzer ilaç önerisi işlevlerinin doğru çalıştığı doğrulandı  
+- Backend ve frontend arasındaki veri akışı başarıyla sağlandı  
+- Ekip üyeleri etkin ve üretken şekilde katkı sundu
+
+---
+
+### Tamamlananlar:
+
+- Frontend geliştirildi ve entegrasyonu tamamlandı
+- Backend ile API bağlantısı sağlandı
+- Ana sayfa ve logo tasarımı gerçekleştirildi
+- Proje dokümantasyonu ve testler tamamlandı
+
+---
+
+### Sprint 3'te Tamamlanan Görevler
+| Görev                                  | Tip       | Durum |
+| -------------------------------------- | --------- | ----- |
+| Frontend arayüz tasarımı               | Frontend  | ✅     |
+| Logo tasarımının tamamlanması           | Frontend  | ✅     |
+| API bağlantısının kurulması            | Backend   | ✅     |
+| Tahmin ve öneri modüllerinin entegrasyonu | Backend | ✅     |
+| Proje dokümantasyonunun güncellenmesi  | Dökümantasyon | ✅  |
+| Fonksiyonellik testlerinin yapılması   | Test      | ✅     |
+
+---
+
+### Tamamlanamayanlar:
+
+- Yapay zeka asistanı ve Gemini entegrasyonu teknik sorunlar nedeniyle bu sprintte aktif hale getirilemedi
+----
+
+## Sprint 3 Retrospektif
+
+### Ne İyi Gitti?
+
+- Frontend tasarımı ve logo çalışmaları zamanında tamamlandı
+- Backend ve frontend entegrasyonu gerçekleşti
+- API testleri ve dokümantasyon planlandığı gibi ilerledi
+
+### Ne Geliştirilebilir?
+
+- Yapay zeka asistanı (Gemini entegrasyonu) beklenenden daha fazla teknik sorun yarattı, dış bağımlılıklar için erken analiz yapılmalı
+- Entegrasyon sürecinde veri formatı ve bağlantı kontrollerine daha fazla odaklanılabilir
+- Yapay zeka modülü ( Gemini entegrasyonu) sırasında teknik dokümantasyon ve kaynak eksikliği süreçleri yavaşlattı.
+- Frontend ve backend entegrasyonu sırasında zaman zaman veri formatı ve bağlantı sorunları yaşandı.
+
+### Neleri Koruyacağız?
+
+- Görevlerin net dağıtılması ve zamanında tamamlanması
+- Test ve dokümantasyonun süreçle paralel ilerletilmesi
+
+
+
+### Sprint 3 sonunda, projenin temel işlevleri tamamlanmış ve ana özellikler başarıyla entegre edilmiştir. Elde edilen çıktılar doğrultusunda, uygulamanın son sürümü kullanıma hazır hale getirilmiştir. Son sprintle birlikte, projenin teslim ve sunum aşamasına geçilmektedir.
+
+
+
+---
 
 > ✨ Bu proje bir eğitim bootcamp’i kapsamında geliştirilmiştir.
