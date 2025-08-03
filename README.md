@@ -482,9 +482,9 @@ Uygulamanın frontend tasarımını ve logo çalışmalarını tamamlamak, aray�
 
 ---
 ## Scrum Board Updates
-### Sprint 2 board
+### Sprint 3 board
 <img width="1826" height="1268" alt="image" src="https://github.com/user-attachments/assets/c97cf175-22d8-4311-b2bb-7a21ccc316a9" />
-### Sprint 2 tasks and points
+### Sprint 3 tasks and points
 <img width="1612" height="858" alt="image" src="https://github.com/user-attachments/assets/fff06789-d459-4235-ae6c-3adc9a344c71" />
 
 ---
